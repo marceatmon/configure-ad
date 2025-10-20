@@ -61,37 +61,12 @@ Login to the Domain Controller through the Remote Desktop Connection and enable 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/m9W0gaQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-From the Windows Defender menu click on Inbound Rules-->Click on Protocol to ascend the types-->Look for ICMPv4 protocol-->Right Click on echo requests and Enable Rule.  This will now allow the clients DNS server to establish connection with the server.
-</p>
-<br />
 
 <p>
-<img src="https://i.imgur.com/NuJNMKK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/marceatmon/AD-files/blob/main/Installing%20Active%20Directory%20onto%20Domain%20Controller.jpg?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-To confirm connectivity, Open an instance of your client desktop and open your command prompt-->type ping -t and the private Ip address-->enter.  If a connection has been established between, this command will ping the specified host continuously until stopped. The host is replying so we have an established a successful connection between the client and the host.
-</p>
-<br />
-
-<h3>Install Active Directory</h3>
-<p>
-<img src="https://i.imgur.com/5JTXYCf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Open an instance of your Domain Controller from the Remote Desktop Connection and open the server manager.  Click on Add roles and features.  The following steps will install Active Directory on this server.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/n8YIEe5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Click Add roles and features and the wizard will open.  Click on next a couple of times until you see your destination server to connect.  Click next a few times again until you see the Select server roles.  Check the radio button Active Directory Domain Services.  On that page, click on Add Features. Click on next through the proceeding pages that installs all of the dependencies and the final install button.
-Click Add roles and features and the wizard will open.  Click on next continually until you see your destination server to connect.  Click next a few times again until you see the Select server roles.  Check the radio button Active Directory Domain Services.  On that page, click on Add Features. Click on next through the proceeding pages that installs all of the dependencies and the final install button.
+To install Active Directory, open the Domain Controller from the Remote Desktop Connection and open the Server Manager. Click on Add roles and features. Click to add roles and then add features. Continue clicking next until you reach the server roles. Enable Active Directory Domain Services and click Add Features. Continue clicking next until you reach the Install button.
 </p>
 <br />
 
