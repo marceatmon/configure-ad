@@ -2,7 +2,7 @@
 <img src="https://github.com/marceatmon/AD-files/blob/main/Active%20DirectoryLogo3.png" alt="osTicket logo"/>
 </p>
 
-<h1>Active Directory: Installing and Configuring Active Directory within Azure VMs</h1>
+<h1>Active Directory: Installing Active Directory within Azure VMs</h1>
 This tutorial outlines the prerequisites and installation of Active Directory.<br />
 
 <h2>Environments and Technologies Used</h2>
@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of Active Directory.<b
 - Ensure Connectivity between the client and Domain Controller
 - Install Active Directory
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment Steps</h2>
 
 <p>
 <img src="https://github.com/marceatmon/AD-files/blob/main/Setting%20up%20Client%20VM.jpg?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
