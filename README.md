@@ -30,6 +30,14 @@ This tutorial outlines the prerequisites and installation of Active Directory.<b
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
+<img src="https://github.com/marceatmon/AD-files/blob/main/Setting%20up%20Client%20VM.jpg?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Microsoft Azure, create two virtual machines. Create a "Domain Controller" using Windows Server and a "Client PC" using Windows 10 Pro.
+</p>
+<br />
+
+<p>
 <img src="https://github.com/marceatmon/AD-files/blob/main/Remote%20Dekstop.jpg?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -46,10 +54,10 @@ In Azure, change the assignment of the private IP address from dynamic to static
 <br />
 
 <p>
-<img src="https://i.imgur.com/JkHLSUC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/marceatmon/AD-files/blob/main/Logged%20into%20Domain%20Controller%20using%20Remote%20Desktop.jpg?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login to the Domain Controller through the Remote Desktop Connection and enable ICMPv4 on the local Windows Firewall.  To do this go to Start-->Windows Administrative Tools-->Windows Defender Firewall with Advanced Security
+Login to the Domain Controller through the Remote Desktop Connection and enable ICMPv4 on the local Windows Firewall.
 </p>
 <br />
 
